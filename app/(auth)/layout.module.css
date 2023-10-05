@@ -1,0 +1,23 @@
+.body{
+    height: 100vh;
+    display: grid;
+   place-content: center;
+   background-image: linear-gradient(-90deg, #3300fc, #2df88d);
+   overflow: hidden;
+}
+.form{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:fit-content;
+    gap:1.125rem;
+    align-items:flex-start;
+    border-radius: 0.675rem;
+    overflow: hidden;
+    background: #5ec6ff;
+}
+
+.right{
+    padding:0 0.55rem;
+}

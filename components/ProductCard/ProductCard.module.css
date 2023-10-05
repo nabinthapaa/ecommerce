@@ -1,5 +1,5 @@
 .card{
-    --width:25rem;
+    --width:20rem;
     --border-radius: 1em;
     width: var(--width);
     border-radius: var(--border-radius);

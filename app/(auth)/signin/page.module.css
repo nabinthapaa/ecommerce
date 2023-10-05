@@ -1,0 +1,81 @@
+.header{
+
+}
+
+.headerText{
+    font-size: 0.85rem;
+    text-decoration: none;
+    color: #f9c024;
+    cursor: pointer;
+}
+
+.headerText:hover{
+    text-decoration: underline;
+}
+
+.form{}
+
+.formGroup{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.55rem;
+    gap: 0.125rem;
+}
+
+.formGroup label{
+    font-size: 1.23rem;
+    font-weight: 600;
+}
+
+.oauthButton,
+.input{
+    padding: 0.45rem 0.75rem;
+    font-size: 1.25rem;
+    border: 1px solid #0a3d29;
+    border-radius: 0.23em;
+    background: transparent ;
+}
+
+
+.oauthButton:focus-visible,
+.input:focus-visible{
+    outline: 2px solid #0a3d29;
+}
+
+.inputButton{
+    border: 1px solid black;
+    background: transparent;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+
+.inputButton:hover,
+.inputButton:focus-visible{
+    background: #0a3d29;
+    color: whitesmoke;
+}
+
+.or{
+    display: block;
+    text-align: center;
+    padding: 0.65rem 0;
+    font-size: 1.125rem;
+    font-weight: 800;
+}
+
+.or::before,
+.or::after{
+    content: "-------------";
+    display: inline-block;
+    margin-inline: 1rem;
+}
+
+
+.oauth > *{
+    margin-bottom: 0.65rem;
+}
+.oauth{
+    display: flex;
+    flex-direction: column;
+}

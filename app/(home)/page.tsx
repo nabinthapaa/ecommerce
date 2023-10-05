@@ -1,7 +1,6 @@
-import Image from "next/image";
 import styles from "./page.module.css";
-import ProductCard from "@/components/ProductCard/ProductCard";
-import data from "../data.json"
+import {ProductCard} from "@/components/";
+import data from "../../data.json"
 
 const {products} = styles;
 

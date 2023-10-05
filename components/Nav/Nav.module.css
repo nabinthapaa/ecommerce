@@ -1,6 +1,6 @@
 .header {
   width: 100%;
-  background: #4cd1f9;
+  background: #7690d1d4;
 }
 
 .header ul {
@@ -18,8 +18,8 @@
 }
 
 .header div:has(img) {
-  border: 1px solid red;
   height: 4rem;
+  padding: 0.5em;
 }
 
 .header > div {
@@ -29,14 +29,36 @@
 }
 
 .header form {
-  border: 1px solid blue;
   padding: 0.55em 0.85em;
   border-radius: 0.45em;
   background-color: whitesmoke;
+  flex: 0.7;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header form > input {
   border: 0;
   outline: 0;
   background: transparent;
+}
+
+.header form > input[type="text"]{
+    flex: 1;
+}
+
+
+.header form > input[type="submit"]{
+    background-color:lightgray ;
+    padding: 0.2em 0.5em;
+    border-radius: 0.25em;
+    cursor: pointer;
+}
+
+.signIn{
+    background-color: lightcyan;
+    padding: 0.5em 1.25em;
+    border-radius: 0.45em;
+    color: black !important;
 }
